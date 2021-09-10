@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.success, .failure{
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px green;
+  margin-bottom: 60px;
+}
+
+.failure{
+  box-shadow: 0 0 20px red;
+}
+
+.btn{
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.tomato{
+  background-color: tomato;
+
+}
+
+.green{
+  background-color: #478778;
+}
